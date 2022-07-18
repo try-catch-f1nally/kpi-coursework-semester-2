@@ -1,0 +1,193 @@
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    color: white;
+    min-height: 100px;
+    width: 100%;
+}
+.title {
+    background-color:rgb(93,43,78);
+    background-image: -webkit-linear-gradient(right, rgb(93,43,78), rgb(8,2,50));
+    padding-bottom: 10px;
+}
+
+
+.title h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 20px;
+    width: 30%;
+    float: left;
+}
+.addFinding {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.search {
+    width: 40%;
+    float: left;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+#search {
+    border-radius: 6px;
+    width: 70%;
+    height: 2.3em;
+}
+.button, .deleteButton {
+    font-size: 1em;
+    padding: 5px 12px;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #5e41a4;
+}
+.deleteButton:hover {
+    color: white;
+    background-color: #ff0000;
+}
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: #949fe9;
+}
+
+.search input[type="text"] {
+    font-size: 0.9em;
+}
+.log-in {
+    float: right;
+    width: 20%;
+    text-align: right;
+    padding: 10px 20px 0 20px;
+}
+.log-out {
+    float: right;
+    width: 15%;
+    text-align: center;
+    padding: 10px 20px 0 20px;
+}
+footer {
+    padding: 10px;
+    color: white;
+    min-height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+table {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    background: #fff;
+}
+table th {
+    font-weight: bold;
+    padding: 7px;
+    background: #d0d8fd;
+    text-align: left;
+    border: 2px solid #32115e;
+    font-size: 1.1em;
+}
+table td {
+    padding: 7px;
+    border: 2px solid #32115e;
+}
+table tbody tr:nth-child(even){
+    background: #f2f5ff;
+}
+
+table a, .toMainPage {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    transition: .3s ease-in-out;
+    background-image: linear-gradient(#a64fee 50%, #15008a 50%), linear-gradient(silver 50%, silver 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 .063em, 100% .063em;
+    color: #220942;
+    padding-bottom: .1em;
+}
+table a:hover, .toMainPage:hover {
+    background-size: 100% .063em, 100% .063em;
+    background-position: left bottom;
+}
+tfoot {
+    text-align: center;
+}
+.toMainPage {
+    font-size: 1.2em;
+    margin: 15px;
+    display: block;
+    text-align: center;
+}
+.textWithLines {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 20px auto;
+    width: 90%;
+    border-bottom: 2px solid rgb(0, 10, 145);
+    line-height: 0.1em;
+
+}
+.textWithLines span {
+    background:#fff;
+    padding:0 10px;
+}
+.notification {
+    text-align: center;
+    vertical-align: center;
+    font-size: 1em;
+    background: #949fe9;
+    border-radius: 6px;
+    margin: 20px 20px;
+    padding: 10px;
+}
+.creatingForm {
+    margin: auto;
+    padding: 10px;
+    width: 25%;
+    border: 3px solid #949fe9;
+    border-radius: 6px;
+}
+.creatingForm input {
+    width: 90%;
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid #32115e;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.creatingForm input:focus {
+    border: none;
+    border-bottom: #220942;
+}
+.creatingForm .button {
+    display: block;
+    margin: auto auto -20px;
+}
+#creatingFinding {
+    width: 30%;
+}
+textarea {
+    margin: 0 0 10px 0;
+    resize: none;
+}
+p {
+    font-weight: bold;
+}
